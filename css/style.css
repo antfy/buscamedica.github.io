@@ -41,9 +41,6 @@ nav{
     font-size: 24px;
     font-weight: bold;
 
-    flex-basis: 200px;
-    flex-grow: 1;
-    flex-shrink: 0;
 }
 .nav-buttons{
     margin-right: 48px;
@@ -137,13 +134,14 @@ nav{
  .btn{
     color: white;
     text-align: center;
-    background-color: #25252500;
+    background-color: #2525255c;    
     border: none;
     font-family: roboto;
     font-size: large;
     padding: 6px;
     margin: 6px;
     width: 100%;
+    border-radius: 6px;
 }
 
 .btn:hover{
@@ -214,7 +212,7 @@ nav{
   100% { transform: rotate(360deg); }
 }
 hr{
-    border: 1px solid #50A6CE;
+    border: 1px solid #2674b3;
 }
 .body a{
     padding:6px;
@@ -391,7 +389,7 @@ area:hover{
 
 @media(max-width: 359px){
     .cover-text{
-    font-size: 16px;
+    font-size: 17px;
     flex-shrink: 1;
     flex-grow: 1; 
     }
@@ -400,6 +398,36 @@ area:hover{
     margin: 48px;
     padding: 48px;
     }
+}
+
+@media(max-width:355px){
+    .nav{
+        height: 70px;
+    }
+    
+    .nav-st{
+    font-size: 14px;
+    }
+
+    .nav-st a {
+    margin: 5px;
+    }
+
+    #buscar{
+    position: absolute;
+    right: 24px;
+    top: 6px;
+    }
+
+    #loader{
+    margin-left: 14px;
+    }
+
+    .brand{
+    margin: 0;
+    padding-right: 0;
+    }
+
 }
 
 @media print{
