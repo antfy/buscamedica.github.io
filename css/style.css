@@ -134,14 +134,14 @@ nav{
  .btn{
     color: white;
     text-align: center;
-    background-color: #2525255c;    
+    background-color: #25252500;   
     border: none;
     font-family: roboto;
     font-size: large;
     padding: 6px;
     margin: 6px;
     width: 100%;
-    border-radius: 6px;
+    
 }
 
 .btn:hover{
@@ -426,6 +426,11 @@ area:hover{
     .brand{
     margin: 0;
     padding-right: 0;
+    }
+
+    .btn{
+    background-color: #2525255c;    
+    border-radius: 6px;
     }
 
 }
