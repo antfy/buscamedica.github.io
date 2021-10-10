@@ -30,7 +30,7 @@ index.html, css, js, img, csv_
  ##### rodar
 7. abrir no google chrome http://localhost:8080/
 8. em um terminal, fazer comando (): <br/>
-      $ npm run start-client
+      $ npm run start-client <br/>
 _obs: aparentemente você pode ignorar o passo 9. porque os passos seguintes funcionam independetemente_
 9. em outro terminal, fazer comando (): <br/>
       $ npm run start-server <br/>
