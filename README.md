@@ -31,9 +31,10 @@ index.html, css, js, img, csv_
 7. abrir no google chrome http://localhost:8080/
 8. em um terminal, fazer comando (): <br/>
       $ npm run start-client
+_obs: aparentemente você pode ignorar o passo 9. porque os passos seguintes funcionam independetemente_
 9. em outro terminal, fazer comando (): <br/>
       $ npm run start-server <br/>
-_obs: provavelmente vai lançar um erro... eu ignorei por enquanto_
+_obs: provavelmente vai lançar um erro nesse comando... eu ignorei por enquanto_
 10. abrir o inspect element da página e ir para o console
 11. mudar o grau de alguns sintomas e clicar no botão "buscar"
 12. observar no console se está rodando os epochs - depois de 100 epochs deve aparecer um alert na página com a resposta da previsão 
