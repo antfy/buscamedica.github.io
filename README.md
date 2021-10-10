@@ -8,11 +8,13 @@ https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#0
 
 #### para acessar versão customizada:
 
+##### setup
+1. criar uma pasta chamada ./testbuscamedica
+
 ##### setup - FRONT END
-1. baixar index.html, css, js, img, csv
+2. baixar index.html, css, js, img, csv e adicionar todos na pasta 'testbuscamedica'
 
 ##### setup - NODE.JS
-2. criar uma pasta chamada ./testbuscamedica
 3. baixar o package.json, webpack.config.js e colocar na pasta 'testbuscamedica'
 4. no terminal, fazer o comando (https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#2): <br/>
       $ npm install
