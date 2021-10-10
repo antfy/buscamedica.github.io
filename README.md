@@ -24,7 +24,7 @@ https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#0
       $ yarn add @tensorflow/tfjs-node <br/>
 _obs: até o momento devem estar os seguintes arquivos no seu 'testbuscamedica': <br/>
 node_modules  package.json  package-lock.json  webpack.config.js <br/>
-index.html, css, js, img, csv
+index.html, css, js, img, csv_
 6. baixar doctor_type, server.js, client.js e colocar na pasta 'testbuscamedica'
  
  ##### rodar
@@ -33,7 +33,7 @@ index.html, css, js, img, csv
       $ npm run start-client
 9. em outro terminal, fazer comando (): <br/>
       $ npm run start-server
-_obs: provavelmente vai lançar um erro... eu ignorei por enquanto
+_obs: provavelmente vai lançar um erro... eu ignorei por enquanto_
 10. abrir o inspect element da página e ir para o console
 11. mudar o grau de alguns sintomas e clicar no botão "buscar"
 12. observar no console se está rodando os epochs - depois de 100 epochs deve aparecer um alert na página com a resposta da previsão 
