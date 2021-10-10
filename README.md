@@ -8,28 +8,27 @@ https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#0
 
 #### para acessar versão customizada:
 
-##### setup
-1. FRONT END
-  a. baixar index.html, css, js, img, csv
-2. NODE.JS
-  a. criar uma pasta chamada ./testbuscamedica
-  b. baixar o package.json, webpack.config.js e colocar na pasta 'testbuscamedica'
-  c. no terminal, fazer o comando (https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#2):
+##### setup - FRONT END
+1. baixar index.html, css, js, img, csv
+
+##### setup - NODE.JS
+2. criar uma pasta chamada ./testbuscamedica
+3. baixar o package.json, webpack.config.js e colocar na pasta 'testbuscamedica'
+4. no terminal, fazer o comando (https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#2):
     $ npm install
-  d. no terminal, fazer o comando (https://github.com/tensorflow/tfjs/tree/master/tfjs-node):
+5. no terminal, fazer o comando (https://github.com/tensorflow/tfjs/tree/master/tfjs-node):
     $ npm install @tensorflow/tfjs-node
     (or)
     $ yarn add @tensorflow/tfjs-node
-  e. baixar doctor_type, server.js, client.js e colocar na pasta 'testbuscamedica'
+6. baixar doctor_type, server.js, client.js e colocar na pasta 'testbuscamedica'
  
  ##### rodar
- 3. abrir no google chorme http://localhost:8080/
- 4. em um terminal, fazer comando ():
+7. abrir no google chorme http://localhost:8080/
+8. em um terminal, fazer comando ():
     $ npm run start-client
- 5. em outro terminal, fazer comando ():
+9. em outro terminal, fazer comando ():
     $ npm run start-server
- obs: provavelmente vai lançar um erro... eu ignorei por enquanto
- 6. abrir o inspect element da página e ir para o console
- 7. mudar o grau de alguns sintomas e clicar no botão "buscar"
- 8. observar no console se está rodando os epochs - depois de 100 epochs deve aparecer um alert na página com a resposta da previsão
-   
+obs: provavelmente vai lançar um erro... eu ignorei por enquanto
+10. abrir o inspect element da página e ir para o console
+11. mudar o grau de alguns sintomas e clicar no botão "buscar"
+12. observar no console se está rodando os epochs - depois de 100 epochs deve aparecer um alert na página com a resposta da previsão 
