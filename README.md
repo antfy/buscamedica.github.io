@@ -23,7 +23,7 @@ https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#0
      (or) <br/>
       $ yarn add @tensorflow/tfjs-node <br/>
 _obs: até o momento devem estar os seguintes arquivos no seu 'testbuscamedica': <br/>
-node_modules  package.json  package-lock.json  webpack.config.js <br/>
+node_modules, package.json, package-lock.json, webpack.config.js <br/>
 index.html, css, js, img, csv_
 6. baixar doctor_type, server.js, client.js e colocar na pasta 'testbuscamedica'
  
@@ -32,7 +32,7 @@ index.html, css, js, img, csv_
 8. em um terminal, fazer comando (): <br/>
       $ npm run start-client
 9. em outro terminal, fazer comando (): <br/>
-      $ npm run start-server
+      $ npm run start-server <br/>
 _obs: provavelmente vai lançar um erro... eu ignorei por enquanto_
 10. abrir o inspect element da página e ir para o console
 11. mudar o grau de alguns sintomas e clicar no botão "buscar"
