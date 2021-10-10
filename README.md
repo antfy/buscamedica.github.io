@@ -22,10 +22,13 @@ https://codelabs.developers.google.com/codelabs/tensorflowjs-nodejs-codelab#0
       $ npm install @tensorflow/tfjs-node <br/>
      (or) <br/>
       $ yarn add @tensorflow/tfjs-node <br/>
+obs: até o momento devem estar os seguintes arquivos no seu 'testbuscamedica': <br/>
+node_modules  package.json  package-lock.json  webpack.config.js <br/>
+index.html, css, js, img, csv
 6. baixar doctor_type, server.js, client.js e colocar na pasta 'testbuscamedica'
  
  ##### rodar
-7. abrir no google chorme http://localhost:8080/
+7. abrir no google chrome http://localhost:8080/
 8. em um terminal, fazer comando (): <br/>
       $ npm run start-client
 9. em outro terminal, fazer comando (): <br/>
