@@ -989,12 +989,13 @@ async function run() {
     Number(document.getElementById("input373").value), Number(document.getElementById("input374").value)];
 
     console.log(inputsList);
+    console.log(classNames[pIndex]);
 
     if (loader.style.display === "block") {
         loader.style.display = "none";
     }
     // alert(prediction)
-    alert(classNames[pIndex])
+    alert(classNames[pIndex]);
 
 }
 
